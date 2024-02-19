@@ -20,7 +20,7 @@ class calculator {
         // int num2= in.nextInt();
         System.out.println("Enter the operation to be performed");
         System.out.println("1.Addition\n2.Subtraction\n3.Product\n4.Division\n");
-        int ch= in.nextInt();
+        int ch= 1;
         switch (ch){
             case 1:
                 System.out.println("The sum of the "+num1+" and "+num2+" is: "+add(2,6));
