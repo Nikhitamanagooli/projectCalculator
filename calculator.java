@@ -13,11 +13,10 @@ class calculator {
         return num1/num2;
     }
     public static void main(String[] args) {
-       calculator c=new calculator();
         System.out.println("Addition is"+calculator.add(2,3));
         System.out.println("Addition is"+calculator.sub(2,3));
         System.out.println("Addition is"+calculator.pro(2,3));
         System.out.println("Addition is"+calculator.div(2,3));
         }
     }
-}
+
