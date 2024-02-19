@@ -14,9 +14,9 @@ class calculator {
     }
     public static void main(String[] args) {
         System.out.println("Addition is"+calculator.add(2,3));
-        System.out.println("Addition is"+calculator.sub(2,3));
-        System.out.println("Addition is"+calculator.pro(2,3));
-        System.out.println("Addition is"+calculator.div(2,3));
+        System.out.println("substraction is"+calculator.sub(2,3));
+        System.out.println("multiplication is"+calculator.pro(2,3));
+        System.out.println("division is"+calculator.div(2,3));
         }
     }
 
