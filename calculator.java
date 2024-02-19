@@ -13,22 +13,11 @@ class calculator {
         return num1/num2;
     }
     public static void main(String[] args) {
-        System.out.println("Enter the operation to be performed");
-        System.out.println("1.Addition\n2.Subtraction\n3.Product\n4.Division\n");
-        int ch= 1;
-        switch (ch){
-            case 1:
-                System.out.println("The sum of the "+num1+" and "+num2+" is: "+add(2,6));
-                break;
-            case 2:
-                System.out.println("The difference of the "+num1+" and "+num2+" is: "+sub(5,3));
-                break;
-            case 3:
-                System.out.println("The Product of the "+num1+" and "+num2+" is: "+pro(3,2));
-                break;
-            case 4:
-                System.out.println("The Product of the "+num1+" and "+num2+" is: "+div(5,5));
-                break;
+       calculator c=new calculator();
+        System.out.println("Addition is"+calculator.add(2,3));
+        System.out.println("Addition is"+calculator.sub(2,3));
+        System.out.println("Addition is"+calculator.pro(2,3));
+        System.out.println("Addition is"+calculator.div(2,3));
         }
     }
 }
